@@ -11,8 +11,8 @@
 - 0x30 (`0`): push 0
 - 0x31 (`1`): push 1
 - 0x40 (`@`): rotate stack upwards by 1 (ROLL)
-- 0x44 (`D`): pop a: push a &mul; 2
-- 0x48 (`H`): pop a: push a &div; 2, floored
+- 0x44 (`D`): pop a: push a &times; 2
+- 0x48 (`H`): pop a: push a &divide; 2, floored
 - 0x50 (`P`): pop a: push a **XOR** 1 (switch parity)
 - 0x53 (`S`): pop a: push a<sup>2</sup>
 - 0x5e (`^`): pop a, b: push b, a, b (PICK)
