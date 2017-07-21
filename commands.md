@@ -8,6 +8,8 @@
 
 - 0x24 (`$`): pop a: push a twice (DUP)
 - 0x25 (`%`): pop a, b: push a, b (SWAP)
+- 0x2b (`+`): pop a, b: push b + a
+- 0x2d (`-`): pop a, b: push b - a
 - 0x30 (`0`): push 0
 - 0x31 (`1`): push 1
 - 0x40 (`@`): rotate stack upwards by 1 (ROLL)
