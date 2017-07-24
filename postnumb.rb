@@ -37,5 +37,6 @@ program.chomp.each_char do |c|
 	when ?- then stack << stack.pop - stack.pop
 	when ?* then stack << stack.pop * stack.pop
 	when ?/ then stack << (stack.pop / stack.pop).floor
+	when ?n then stack << stack.pop * -1
 	end
 end

@@ -23,5 +23,6 @@
 - 0x5f (`_`): pop a: discard (DROP)
 - 0x64 (`d`): pop a: push a - 1
 - 0x69 (`i`): read integer from STDIN and push
+- 0x6e (`n`): pop a: push a &times; -1 (negate)
 - 0x6f (`o`): pop a: write a to STDOUT
 - 0x75 (`u`): pop a: push a + 1
