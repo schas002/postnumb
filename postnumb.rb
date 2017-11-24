@@ -6,7 +6,7 @@ stack = []
 program.chomp.each_char do |c|
 	case c
 	when ?i then stack << STDIN.gets.chomp.to_i
-	when ?o then puts stack.pop.to_s
+	when ?o then puts stack.pop
 	when ?0 then stack << 0
 	when ?1 then stack << 1
 	when ?u then stack << stack.pop + 1
